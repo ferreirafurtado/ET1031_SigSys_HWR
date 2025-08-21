@@ -16,7 +16,7 @@ py -3.11 -m venv C:\py311_HWR
 cd C:\py311_HWR
 copy %0 venvGen_py311_HWR.bat
 
-ECHO 2/5  Erstellung der Requirements im "C:\requirements.txt"
+ECHO 2/5  Erstellung der Requirements im "C:\py311_HWR\requirements.txt"
 ECHO numpy==2.0.2 >> requirements.txt
 ECHO pandas==2.2.2 >> requirements.txt
 ECHO matplotlib==3.10.0 >> requirements.txt
@@ -29,7 +29,7 @@ ECHO ipywidgets==8.1.2 >> requirements.txt
 ECHO librosa==0.11.0 >> requirements.txt
 ECHO pyserial==3.5 >> requirements.txt
 
-ECHO 3/5  Erstellung der Datei zur Ausfuehrung des Jupyter-Notebooks im "C:\py311_HWR_notebook.bat"
+ECHO 3/5  Erstellung der Datei zur Ausfuehrung des Jupyter-Notebooks im "C:\py311_HWR\py311_HWR_notebook.bat"
 ECHO @ECHO OFF > py311_HWR_notebook.bat
 ECHO ECHO  !--- py311_HWR_notebook.bat ---------------------------------------------------! >> py311_HWR_notebook.bat
 ECHO ECHO  !                                                                              ! >> py311_HWR_notebook.bat
