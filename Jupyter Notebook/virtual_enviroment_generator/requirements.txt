@@ -9,3 +9,13 @@ notebook==7.6.1
 ipywidgets==8.1.8
 librosa==0.11.0
 pyserial==3.5
+jupyter_server_fileid==0.9.3
+jupyter_server_mathjax==0.2.6
+jupyter_server_ydoc==3.0.0
+nbdime==4.0.4
+pyright==1.1.411
+jedi-language-server==0.47.0
+chart_studio==1.1.0
+anywidget==0.11.0
+ipympl==0.10.0
+lcapy==1.26
